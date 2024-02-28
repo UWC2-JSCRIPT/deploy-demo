@@ -15,6 +15,9 @@ export default function NavBar() {
       <li>
         <Link to="/github/users/rainycitycoder">Chris's Github</Link>
       </li>
+      <li>
+        <Link to="/github/users/aikithoughts">Dave's Github</Link>
+      </li>
       <li>Version: {import.meta.env.VITE_APP_VERSION}</li>
     </ul>
   );
