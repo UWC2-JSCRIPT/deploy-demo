@@ -22,7 +22,7 @@ export default function GithubUser() {
         (error) => {
           setIsLoading(false);
           setError(error.message);
-        },
+        }
       );
   }, [username]);
 
@@ -31,6 +31,7 @@ export default function GithubUser() {
   if (githubUser) {
     content = (
       <div>
+        <h1>This is a test!!!!!!!!!!!!!</h1>
         <h2>{githubUser.name}</h2>
         <img
           style={{ width: "100px" }}
