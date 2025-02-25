@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "github-demo-deploy"
-  }
+    "default": "deploy-demo-2025-9f8c6",
+    "staging": "deploy-demo-2025-9f8c6"
+  },
+  "targets": {},
+  "etags": {}
 }
